@@ -1,8 +1,9 @@
 {
-  "name": "GITHUB SERVER",
-  "expiry_date": "2026-05-26",
-  "status": "active",
-  "message": "🟢 Server Online Now\nJoin Telegram: VPN FREE premium\nhttps://t.me/bug302",
+  "info": {
+    "name": "GITHUB SERVER",
+    "expiry_date": "2026-05-26",
+    "message": "🟢 Server Online Now\nJoin Telegram: VPN FREE premium\nhttps://t.me/bug302"
+  },
   "servers": [
     {
       "name": "Singapore Premium",
@@ -19,5 +20,6 @@
       "proxy_port": "80",
       "payload": "CONNECT / HTTP/1.2[crlf]Host: www.tiktok.com[crlf]Expect: 100-continue [crlf][crlf][split][crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket: [ua][crlf][crlf]"
     }
-  ]
+  ],
+  "access": []
 }
