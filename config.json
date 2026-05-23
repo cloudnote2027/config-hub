@@ -1,16 +1,23 @@
 {
+  "name": "GITHUB SERVER",
   "expiry_date": "2026-05-26",
   "status": "active",
+  "message": "🟢 Server Online Now\nJoin Telegram: VPN FREE premium\nhttps://t.me/bug302",
   "ssh_server": {
     "host": "kindvpn11.knlvpn.com",
-    "port": 22,
+    "port": "22",
     "user": "jaidee",
     "pass": "2233"
   },
   "proxy_remote": {
-    "remote": "162.159.140.159:80"
+    "proxy_ip": "162.159.140.159",
+    "proxy_port": "80"
   },
   "network_payload": {
     "payload": "CONNECT / HTTP/1.2[crlf]Host: www.tiktok.com[crlf]Expect: 100-continue [crlf][crlf][split][crlf][crlf]CF-RAY / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket: [ua][crlf][crlf]"
+  },
+  "tweaks": {
+    "dns_forward": true,
+    "udp_forward": true
   }
 }
